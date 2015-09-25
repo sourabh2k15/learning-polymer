@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>polymer love</title>
+        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+        <link rel="import" href="bower_components/core-ajax/core-ajax.html">
+        <link rel="import" href="elements/my-element.html">
+    </head>
+    <body>
+        <my-element></my-element>
+        <core-ajax url='/handleget' auto response="{{resp}}"></core-ajax>
+        <textarea value="{{resp}}"></textarea>
+    </body>
+</html>

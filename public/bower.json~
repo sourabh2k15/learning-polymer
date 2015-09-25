@@ -1,0 +1,23 @@
+{
+  "name": "polymerfirst",
+  "version": "0.0.0",
+  "authors": [
+    "sourab <lostinmigration2k15@gmail.com>"
+  ],
+  "description": "a demo polymer app",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "express": "~4.13.3",
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}
