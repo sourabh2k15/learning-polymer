@@ -7,7 +7,7 @@ var server = http.Server(app);
 app.use(express.static(__dirname+'/public/'));
 
 server.listen(port,function(){
-    console.log("server listening on port "+port);
+    console.log(" server listening on port "+port);
 });
 
 app.get('/handleget',function(req,res){
